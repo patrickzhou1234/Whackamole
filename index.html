@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html onmousemove="mousecursor()">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://rb.gy/ynetii">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WhackAMole</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload="resizebackground()">
+    <img id="backgroundimage" src="https://rb.gy/n48suh" alt="backgroundimage">
+    <h1>Welcome to Whack A Mole! </h1>
+    <a href="level1"><button>Play Level 1!</button></a>
+    <a href="level2"><button>Play Level 2!</button></a>
+    <a href="level3"><button>Play Level 3!</button></a>
+    <a href="level4"><button>Play Level 4!</button></a>
+    <a href="level5"><button>Play Level 5!</button></a>
+    <a href="level6"><button>Play Level 6!</button></a>
+    <a href="level7"><button>Play Level 7!</button></a>
+    <button id="stophow" onclick="stophow()">Hide Manual</button>
+    <button id="how" onclick="how()">How to play</button>
+    <vl></vl>
+    <textarea cols="30" rows="10" id="howto" readonly>
+      Select a level from 1-7 (Easiest to Hardest). In each level, 150 moles will pop up from the holes before the game ends. You want to hit as many moles with your hammer before they hide. At the end of the game, your score will be revealed. 
+    </textarea>
+    <img id="cursor" src="https://rb.gy/pc0scr" alt="cursor">
+    <script src="script.js"></script>
+  </body>
+</html>
